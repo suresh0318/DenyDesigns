@@ -1,0 +1,29 @@
+
+.main-card{
+    margin-top: 1.5rem;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+   
+}
+.lorem-text {
+  width: 15rem;
+  height: 8rem;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.form-field {
+  outline: none;
+  border-radius: 6px;
+  border: 1px solid gainsboro;
+  padding: 8px 12px;
+}
+span {
+  color: white;
+  background-color: midnightblue;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
